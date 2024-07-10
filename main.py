@@ -128,7 +128,7 @@ def save_data_to_json(data, json_path):
     print(f"Data successfully saved to {json_path}")
 
 pdf_paths = [
-    "/Users/ibrahim/Desktop/workspace/VBDataPP/Dataset/EK 1) 5520 Sayılı Kurumlar Vergisi Kanunu.pdf" #istenilen herhangi bir dokümanın path'ini vermek yeterli olacaktır.
+    ""
 ]
 
 combined_data = process_pdf_files(pdf_paths) #alınan path'e göre işlemi başlatıyorum.
